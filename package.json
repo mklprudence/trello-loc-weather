@@ -1,0 +1,15 @@
+{
+  "name": "loc-based-weather",
+  "version": "1.0.0",
+  "description": "follow along trello weather tutorial (https://www.youtube.com/watch?v=dLCkcQnwAQk&t=778s&ab_channel=TrelloDevelopers)",
+  "main": "index.js",
+  "repository": "https://github.com/mklprudence/trello-loc-weather.git",
+  "author": "mklprudence",
+  "license": "MIT",
+  "scripts": {
+    "build" : "parcel build src/html/*.html"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
